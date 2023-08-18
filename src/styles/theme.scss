@@ -1,0 +1,57 @@
+.light {
+  --txt: #000000;
+  --txt-secondary: #c41212;
+  --txt-sec-darker: #5fe9f8;
+  --bg-layout-home: linear-gradient(307deg, transparent 0%, transparent 57%, #ffffff 57%, #f8f8f8 100%), linear-gradient(to bottom, #ffffff 0%, #f8f8f8 100%);
+  --bg-home-section-main: none;
+  --bg-layout-base: linear-gradient(307deg, transparent 0%, transparent 57%, #ffffff 57%, #f8f8f8 100%), linear-gradient(to bottom, #ffffff 0%, #f8f8f8 100%);
+  --bg-primary: #fafafa;
+  --bg: #368386;
+  --bg-active: rgba(32, 194, 197, 0.84);
+  --bg-header: #ffffff;
+  --bg-footer: rgb(33, 144, 185);
+  --backdrop: rgba(0, 0, 0, 0.75);
+  --nav-active: #5be8f5;
+  --border-primary: #ed2cb9;
+  --logo-primary: #df23a0;
+  --social-icon: #1cde2f;
+  --social-shadow: #4ad91e;
+  --preloader: #fafafa;
+  --bg-modal: #fafafa;
+  --modal-border: none;
+  --modal-close: #368386;
+  --modal-close-icon: #fff;
+  --drawer-shadow: 0 0 25px rgba(0, 0, 0, 0.05);
+  --btn-primary-txt: #fff;
+  --tags-txt: #fff;
+  --toggle-theme: #000;
+}
+
+.dark {
+  --txt: #fff;
+  --txt-secondary: #00fb08;
+  --txt-sec-darcker: #eb4f08;
+  --bg-layout-home: linear-gradient(to left, RGB(27 20 41), RGB(20 15 35));
+  --bg-home-section-main: linear-gradient(to bottom left, rgba(17, 16, 16, 0.678), rgba(12, 10, 22, 0.863)), url(../assets/home-blue.jpg);
+  --bg-layout-base: #0c0915;
+  --bg-primary: #3aec2d;
+  --bg: #368681;
+  --bg-active: rgba(255, 0, 0, 0.84);
+  --bg-header:#080808 ;
+  --bg-footer: #00fb08;
+  --backdrop: rgba(0, 0, 0, 0.75);
+  --nav-active: #43f927;
+  --border-primary: #49a6a8;
+  --logo-primary: #5ff3f8;
+  --social-icon: #00fb08;
+  --social-shadow: #ff1717;
+  --preloader: #00caca;
+  --bg-modal: #090909;
+  --modal-border: 1px solid rgba(16, 236, 111, 0.763);
+  --modal-close: #367f86;
+  --modal-close-icon: #fff;
+  --drawer-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  --btn-primary-txt: #ffffff;
+  --tags-txt: #ffffff;
+  --toggle-theme: #ffffff;
+}
